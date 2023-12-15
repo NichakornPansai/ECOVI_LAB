@@ -1,0 +1,19 @@
+%u1 = (x1*fx)/2 + cx;
+
+%u2 = (x2*fx)/2 + cx;
+
+%pixDis = u2-u1;
+
+%x1-x2 = 12 [cm]
+dx = 12;
+dy = 12;
+
+du = 1024;
+
+fx = 4.0814e+03;
+fy = 4.0807e+03;
+
+%u2-u1 = (x2-x1)*fx/2;
+%du = dx * fx / z;
+zx = (dx * fx) / du
+zy = (dy * fy) / du
